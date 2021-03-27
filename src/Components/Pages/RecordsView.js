@@ -14,7 +14,7 @@ function RecordsView(props){
     useEffect(() => {
         if(props.page === "home")
         {
-            fetch("https://localhost:5001/MaufacturerList")
+            fetch("https://glance-api.azurewebsites.net/MaufacturerList")
             .then(res => res.json())
             .then(    
                 (result) => {

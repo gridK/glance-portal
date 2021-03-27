@@ -12,7 +12,7 @@ function AuditList(props){
     const [isLoaded, setIsLoaded] = useState(false);
     const [items, setItems] = useState([]);
     useEffect(() => {
-            fetch("https://localhost:5001/AuditorList")
+            fetch("https://glance-api.azurewebsites.net/AuditorList")
             .then(res => res.json())
             .then(    
                 (result) => {

@@ -12,7 +12,7 @@ function ShelfList(props){
     const [items, setItems] = useState([]);
     const  params  = useParams();
     useEffect(() => {
-            fetch(`https://localhost:5001/shelflist/inputId=${params.inputId}`)
+            fetch(`https://glance-api.azurewebsites.net/shelflist/inputId=${params.inputId}`)
             .then(res => res.json())
             .then(    
                 (result) => {
