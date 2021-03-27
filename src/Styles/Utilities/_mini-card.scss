@@ -1,0 +1,64 @@
+.mini-card-box{
+    border-radius: 10px;
+    border: 1px solid #DDDDDD;
+    padding: 3% 0 9.1% 9.7%;
+    width: 14rem;
+    height: 4.5rem;
+    .mini-card-inner-padding{
+        padding-left: inherit;
+    }
+    .mini-card-icon{
+        width: 47px;
+        height: 47px;
+    }
+    .mini-card-text{
+        padding-left: 6%;
+
+        p{
+            margin-bottom: 0px;
+            font-family: $font-Text ;
+            color: #707070;
+            font-size: 15px;
+        }
+        .mini-card-value-text{
+            h4{   
+                font-family: $font-SemiBold;
+                font-size: 27px;
+                color:#707070;
+            }
+            img{
+                margin-left: 2px;
+                width: 23px;
+                height: 23px;
+            }
+        }
+
+    }
+}
+
+.mini-btn{
+    border-radius: 10px;
+    background-color: #2f73a0;
+    display: flex;
+    &.view-btn{
+        padding: 8px 10px 7px 13px;
+        width: 4.8rem;
+        height: 2.3rem;
+    }
+    &.search-btn{
+        padding: 13px 26px 12px 26px;
+        width: 6rem;
+        height: 2.6rem;
+    }
+    h5{
+        padding-top: 5%;
+        font-family: $font-SemiBold;
+        font-size: 14px;
+        color:white;
+    }
+    img{
+        padding-left: 8%;
+        height: 17px;
+        width: 17px;
+    }
+}

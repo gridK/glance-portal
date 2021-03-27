@@ -1,0 +1,23 @@
+
+@import "~bootstrap/scss/bootstrap";
+
+// fonts
+@import 'Font-loader';
+
+//variables
+@import 'variables';
+
+
+//Side bar 
+@import 'Navs/sidebar';
+
+// Pages
+@import 'Pages/layout';
+@import 'Pages/main-dashboard';
+@import 'Pages/inspection-records';
+
+
+// Utilities
+@import 'Utilities/mini-card';
+@import 'Utilities/full-width-card';
+@import 'Utilities/filter-drop-down';
